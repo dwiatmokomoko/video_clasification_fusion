@@ -1,0 +1,23 @@
+# Ignore dataset folder
+Dataset/
+
+# Python environment
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ignore dataset and media files
+Dataset/
+*.mp4
+
+# Common binary/model files
+*.h5
+*.npz
+*.pkl
+*.wav
+
+# Logs and generated artifacts
+logs/
+plots/
+feature_cache/
